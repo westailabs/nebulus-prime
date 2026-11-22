@@ -8,7 +8,8 @@ rich
 httpx
 pydantic
 google-api-python-client
-mcp
+mcp>=1.0,<2
+nebulus-core @ git+https://github.com/westailabs/nebulus-core@v0.2.1
 duckduckgo-search
 huggingface_hub
 beautifulsoup4
@@ -18,4 +19,4 @@ apscheduler
 chromadb
 googlesearch-python
 sqlalchemy
-selectolax
+selectolax<1
